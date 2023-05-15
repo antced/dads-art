@@ -1,27 +1,28 @@
 body {
-    background-image:linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(9,9,121,0) 0%, rgba(52,0,32,0.6320728975183824) 100%), url("../images/photos/fulumiz.jpg");
+    background-image:linear-gradient(180deg, rgba(219, 16, 16, 0.479) 0%, rgba(0, 0, 0, 0.411) 0%, rgba(52,0,32,0.6320728975183824) 100%), url("../images/photos/fulumiz.jpg");
     background-attachment: fixed;
     background-position-x: 15%;
     background-position-y: 120%;
     background-size: 120%;
 }
 
-#navName {
-    font-size: 200%;
-    text-decoration: none;
-    color: black;
-    font-family: 'Roboto', sans-serif;
+/* #navName {
+    width: 10px;
+} */
+
+#navImage {
+    width: 20%;
 }
 
 .title {
     position: relative;
-    top: 400px;
-    font-size: 1000%;
-    font-family: 'Roboto', sans-serif;
+    top: 140px;
+    font-size: 800%;
+    font-family: 'Lora', serif;
 }
 
 .mt-6 {
-    margin-top: 400px !important;
+    margin-top: 160px !important;
 }
 
 /* .container-fluid {
@@ -42,11 +43,16 @@ body {
 }
 
 .card-title {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lora', serif;
 }
 
 footer {
     background-color: black;
     margin: 0;
-    padding: 10%;
+    padding: 5%;
+}
+
+.footertext {
+    font-family: "Lora", serif;
+    text-align: center;
 }
